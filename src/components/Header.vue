@@ -78,11 +78,14 @@ function handleForm(e) {
   outline: none;
 }
 
-.btn-search{
-  &:hover{
+.btn-search {
+  outline: none;
+  background-color: #fff;
+  font-weight: 600;
+  color: royalblue;
+  /* border: 1px solid #000; */
+  &:hover {
     cursor: pointer;
   }
 }
-
-
 </style>

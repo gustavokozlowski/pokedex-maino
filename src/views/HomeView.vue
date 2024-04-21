@@ -1,7 +1,21 @@
 <script setup>
-import PokemonList from "../components/PokemonList.vue";
+import PokemonCard from "../components/PokemonCard.vue";
 </script>
 
 <template>
-  <PokemonList></PokemonList>
+  <div class="container-home">
+    <PokemonCard />
+  </div>
 </template>
+
+<style>
+
+.container-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: coral;
+  height: 100vh;
+  overflow-x: hidden;
+}
+</style>
